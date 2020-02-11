@@ -66,8 +66,8 @@ h1{
 }
 
 .text-more{
-	bottom: 0px;
-	right: 0px;
+	bottom:0px;
+	right: 5px;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #39B54A;
