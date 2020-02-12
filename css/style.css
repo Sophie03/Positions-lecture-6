@@ -91,6 +91,10 @@ h1{
 	text-transform: uppercase;
 	color: #39B54A;
 }
+.text-more:hover{
+	color: red;
+	right: 50px;
+}
 .text-created{
 	bottom: 15px;
 	right: 10px;
