@@ -34,6 +34,11 @@ h1{
 	font-size: 48px;
 	color: #fff;
 	text-transform: uppercase;
+	transition: all  0.3s linear 0.3s;
+}
+.nav-a:hover{
+	color: red;
+	opacity: 0.7;
 }
 .logo{
 	top: 37px;
