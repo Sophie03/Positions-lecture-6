@@ -51,6 +51,13 @@ h1{
 	height: 455px;
 	bottom: 0px;
 	left: 0px;
+	transition: all  0.3s linear 0.3s;
+}
+.white-box:hover{
+	background-color: gray;
+}
+.white-box:hover .box{
+	background-color: yellow;
 }
 .box{
 	width: 300px;
@@ -59,6 +66,7 @@ h1{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	background-color: #006837;
+	transition: all  0.3s linear 0.3s;
 }
 .text{
 	top:50%;
@@ -68,8 +76,14 @@ h1{
 	color: #FCEE21;
 	text-transform: uppercase;
 	white-space: nowrap;
+	transition: all  0.3s linear 0.3s;
 }
-
+.white-box:hover .text{
+	color: red;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(0deg);
+}
 .text-more{
 	bottom:0px;
 	right: 5px;
